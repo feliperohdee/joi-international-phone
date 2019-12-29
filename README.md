@@ -1,3 +1,5 @@
+![](https://github.com/feliperohdee/joi-international-phone/workflows/Node%20CI/badge.svg)
+
 ## What
 Allows you to do joi.internationalPhone()
 
