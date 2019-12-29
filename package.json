@@ -1,0 +1,19 @@
+{
+    "name": "joi-international-phone",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "@hapi/joi": "^16.1.8",
+        "chai": "^4.2.0",
+        "eslint": "^6.8.0",
+        "mocha": "^6.2.2"
+    },
+    "dependencies": {
+        "google-libphonenumber": "^3.2.6"
+    },
+    "scripts": {
+        "test": "NODE_ENV=test ./node_modules/.bin/_mocha *.spec.js --recursive",
+        "eslint": "eslint . --ext .js --config node_modules/eslint-config/index.js"
+    }
+}
