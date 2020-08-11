@@ -1,5 +1,3 @@
-![](https://github.com/feliperohdee/joi-international-phone/workflows/Node%20CI/badge.svg)
-
 ## What
 Allows you to do joi.internationalPhone()
 
@@ -9,7 +7,7 @@ Which is a compiled version of the Google library https://github.com/googlei18n/
 
 ## How
 
-    const joi = require('@hapi/joi')
+    const joi = require('joi')
         .extend(require('joi-international-phone'));
 
     const schema = joi.object({

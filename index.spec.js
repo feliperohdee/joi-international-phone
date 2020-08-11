@@ -1,6 +1,6 @@
 const chai = require('chai');
 
-const joi = require('@hapi/joi').extend(require('./'));
+const joi = require('joi').extend(require('./'));
 
 const expect = chai.expect;
 
